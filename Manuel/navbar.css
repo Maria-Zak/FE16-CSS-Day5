@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 1em;
+    transition: all .3s ease-in-out;
+}
+
+nav li a:hover {
+    background-color: rgb(60, 60, 60);
+    transform: rotate(5deg) scale(1.2);
+}
