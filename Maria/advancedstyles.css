@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    /* grid-template-columns: auto auto auto auto auto auto auto auto; */
+    /* grid-template-rows: auto auto auto auto auto auto auto auto; */
+    grid-auto-rows: minmax(50px, auto);
+    gap: 20px;
+}
+
+.item {
+    /* height: 100px;
+    width: 100px; */
+    border: 1px solid black;
+}
+
+.item1 {
+    grid-column: 1/5;
+    grid-row: 1/4;
+    background-image: url(https://cdn.pixabay.com/photo/2022/05/11/15/53/flower-7189649_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item2 {
+    grid-column: 5/9;
+    grid-row: 1/6;
+    background-image: url(https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item3 {
+    grid-column: 1/3;
+    grid-row: 4/6;
+    background-image: url(https://media.istockphoto.com/photos/pink-peony-petals-blossom-flowers-picture-id1162818869?s=612x612);
+    background-size: cover;
+    background-position: center;
+}
+
+.item4 {
+    grid-column: 3/5;
+    grid-row: 4/6;
+    background-image: url(https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item5 {
+    grid-column: 1/5;
+    grid-row: 6/9;
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item6 {
+    grid-column: 5/9;
+    grid-row: 6/9;
+    background-image: url(https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
